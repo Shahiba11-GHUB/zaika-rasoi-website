@@ -1,0 +1,38 @@
+
+
+Zaika Rasoi Website Assignment 4 Report
+
+I made a 3-page restaurant website using simple code (HTML, CSS, JavaScript). It works on phones, tablets, and computers.
+
+Pages:
+
+Home Page - More graphcial thats Shows big food pictures with little text. Has icons for delivery/takeout.
+Menu Page - A detailed products page that Lists all food with photos, descriptions, and prices in neat cards.
+About Page - Tells the restaurant's story with one main photo.
+All pages link to each other through a navigation menu.
+
+1. Home Page (ZaikaRasoi.html)
+
+Features a large hero image of Indian food (graphical focus)
+Contains minimal text with just a welcome message
+Shows key features through icons (delivery, takeout, recipes)
+
+2. Menu Page- second page (Menu.html): Displays all menu items in a responsive grid, Clear name, Detailed description
+price display Organized by food type (vegetarian/non-vegetarian).
+
+3. About Page (About.html): Tells the restaurant's story
+
+Responsive Design Implementation (Mobile Friendly): I followed mobile-first principles designing for mobile screens first, then adding enhancements for larger screens
+Adding hamburger menu for mobile, Flexible grids that adapt to screen size, Everything resizes properly
+Easy to read on any device
+
+Technical Implementation
+HTML for structure and i made proper linking between all pages
+CSS for colors/layout and Mobile-first media queries.
+JavaScript:I used basic mobile menu toggle
+
+Design for visual display:
+Maroon and gold colors
+Big, clear photos
+Simple fonts
+

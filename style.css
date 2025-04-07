@@ -1,0 +1,295 @@
+/* BASE STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fffaf5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /*HEADER & NAVIGATION */
+  /* Main header container with brown background */
+  .header-top {
+    background-color: #a52a2a;
+    color: #fff8e1;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Container holding logo and restaurant name */
+  .header-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+  }
+  
+  /* Restaurant logo image */
+  .logo-small {
+    width: 60px;
+  }
+  
+  /* Styling for the restaurant name */
+  .brand-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #ffd700;
+    margin: 0.5rem 0;
+  }
+  
+  /* Navigation menu - horizontal on desktop */
+  .nav-centered {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0.5rem 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .nav-centered li a {
+    color: #fff8e1;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    display: block;
+    transition: color 0.3s;
+  }
+  
+  .nav-centered li a:hover {
+    color: #ffecb3;
+  }
+  
+  /* Hamburger menu button (hidden on desktop) */
+  .mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff8e1;
+    font-size: 1.8rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    z-index: 101;
+  }
+  
+  /* HOME PAGE SECTIONS  */
+  .slider img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+  
+  .welcome-message {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #fffaf0;
+  }
+  
+  .welcome-message h2 {
+    font-size: 1.8rem;
+    color: #6b2400;
+    margin-bottom: 1rem;
+  }
+  
+  .welcome-message p {
+    max-width: 700px;
+    margin: 0 auto 1.5rem;
+  }
+  
+  .home-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    background-color: white;
+  }
+  
+  .feature {
+    text-align: center;
+    flex: 1 1 200px;
+    max-width: 220px;
+  }
+  
+  .feature img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+  }
+  
+  .feature h3 {
+    font-size: 1.2rem;
+    color: #a52a2a;
+  }
+  
+  /*  MENU PAGE  */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    justify-items: center;
+  }
+  
+  .product-card {
+    width: 100%;
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .product-card h2 {
+    margin: 0.8rem 0 0.3rem;
+    color: #a52a2a;
+  }
+  
+  /*  ABOUT PAGE */
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .about-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
+  
+  .about-text {
+    max-width: 800px;
+  }
+  
+  /* COMMON ELEMENTS */
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #b22222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #8b1a1a;
+  }
+  
+  .contact-section {
+    background-color: #fff0e0;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .contact-section h3 {
+    font-size: 1.5rem;
+    color: #5c2c06;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-section p {
+    color: #333;
+    margin: 0.5rem 0;
+  }
+  
+  .cta {
+    background-color: #f5deb3;
+    color: #4a2c13;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .cta h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  footer {
+    background-color: #a52a2a;
+    color: #fff8e1;
+    text-align: center;
+    padding: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* MOBILE STYLES */
+  @media (max-width: 768px) {
+    .mobile-menu-btn {
+      display: block;
+    }
+  
+    .nav-centered {
+      display: none;
+      flex-direction: column;
+      background-color: #8b1a1a;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      padding: 1rem 0;
+      z-index: 100;
+      gap: 0;
+    }
+  
+    .nav-centered.active {
+      display: flex;
+    }
+  
+    .nav-centered li {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .nav-centered li a {
+      padding: 1rem;
+    }
+  
+    .slider img {
+      height: 40vh;
+    }
+  
+    .product-grid {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      padding: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .brand-name {
+      font-size: 1.5rem;
+    }
+  
+    .product-grid {
+      grid-template-columns: 1fr;
+      padding: 1rem;
+    }
+  }
