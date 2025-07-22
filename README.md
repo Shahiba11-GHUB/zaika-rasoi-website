@@ -4,11 +4,11 @@ A responsive 3-page restaurant website built using **HTML**, **CSS**, and **Java
 
 ##  Features
 
-- ✔ Mobile, tablet, and desktop compatible  
-- ✔ Hamburger menu for small screens  
-- ✔ Responsive product grid  
-- ✔ Clean and cultural color theme (Maroon & Gold)  
-- ✔ Easy-to-navigate layout with interlinked pages  
+- Mobile, tablet, and desktop compatible  
+- Hamburger menu for small screens  
+- Responsive product grid  
+- Clean and cultural color theme (Maroon & Gold)  
+- Easy-to-navigate layout with interlinked pages  
 
 ---
 
