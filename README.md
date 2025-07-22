@@ -2,10 +2,6 @@
 
 A responsive 3-page restaurant website built using **HTML**, **CSS**, and **JavaScript**, inspired by Indian cuisine and modern design principles.
 
- **[View Live Demo](https://Shahiba11-GHUB.github.io/zaika-rasoi-website)**
-
----
-
 ##  Features
 
 - ✔ Mobile, tablet, and desktop compatible  
@@ -67,18 +63,16 @@ All pages are linked through a navigation menu that adapts to screen size.
 
 | Device | Page | Screenshot |
 |--------|------|------------|
-| MacBook Pro | Home Page (`ZaikaRasoi.html`) | ![Mac Home](screenshots/mac-home.png) |
-| MacBook Pro | Menu Page (`Menu.html`) | ![Mac Menu](screenshots/mac-menu.png) |
-| MacBook Pro | About Page (`About.html`) | ![Mac About](screenshots/mac-about.png) |
-| iPhone 14 Pro Max | Home (Portrait) | ![iPhone Home Portrait](screenshots/iphone-home-portrait.png) |
-| iPhone 14 Pro Max | Menu (Landscape) | ![iPhone Menu Landscape](screenshots/iphone-menu-landscape.png) |
-| iPhone 14 Pro Max | About Page | ![iPhone About](screenshots/iphone-about.png) |
-
->  Place all screenshots in a `/screenshots/` folder in your GitHub repo.
+| MacBook Pro | Home Page (`ZaikaRasoi.html`) | ![Mac Home](Screenshot/Macbook%20zaika%20homepage.png) |
+| MacBook Pro | Menu Page (`Menu.html`) | ![Mac Menu](Screenshot/Macbook_menu_zaika.png) |
+| MacBook Pro | About Page (`About.html`) | ![Mac About](Screenshot/Macbook_Aboutpage.png) |
+| iPhone 14 Pro Max | Home (Portrait) | ![iPhone Home Portrait](Screenshot/Homepage%20Iphone.png) |
+| iPhone 14 Pro Max | Menu  | ![iPhone Menu Landscape](Screenshot/Iphone%20menu.png) |
+| iPhone 14 Pro Max | About Page | ![iPhone About](Screenshot/iphone%20aboutpage.png) |
 
 ---
 
-## 📁 Project Files
+##  Project Files
 zaika-rasoi-website/
 ├── ZaikaRasoi.html
 ├── Menu.html
