@@ -1,37 +1,92 @@
-# 🍛 Zaika Rasoi Restaurant Website  
+#  Zaika Rasoi Restaurant Website
 
-A responsive 3-page website built with HTML, CSS, and JavaScript.  
+A responsive 3-page restaurant website built using **HTML**, **CSS**, and **JavaScript**, inspired by Indian cuisine and modern design principles.
 
-**Features:**  
-✔ Works on mobile, tablet, and desktop  
-✔ Hamburger menu for small screens  
-✔ Interactive product grid  
+ **[View Live Demo](https://Shahiba11-GHUB.github.io/zaika-rasoi-website)**
 
-[View Live Demo]: https://Shahiba11-GHUB.github.io/zaika-rasoi-website
+---
 
-WORK REPORT
+##  Features
 
-Zaika Rasoi Website Assignment 4 - Report
-I made a 3-page restaurant website using HTML, CSS, JavaScript. It works on phones, tablets, and computers.
-Pages:
-Home Page - More graphical that shows big food pictures with little text. Has icons for delivery, spice and takeout.
-Menu Page - A detailed products page that Lists all food with photos, descriptions, and prices in neat cards.
-About Page - Tells the restaurant's story with one main photo of its background culture.
-All page’s link to each other through a navigation menu.
-1. Home Page (ZaikaRasoi.html):  Features a large hero image of Indian food (graphical focus), contains minimal text with just a welcome message. Shows key features through icons for delivery, takeout, spice.
-2. Menu Page (Menu.html): Displays all menu items in a responsive grid, Clear name, Detailed description has price display.
-3. About Page (About.html): Tells the restaurant's story: Responsive Design Implementation I followed mobile-first principles designing for mobile screens first, then adding enhancements for larger screens. Added hamburger menu for mobile, Flexible grids that adapt to screen size, everything resizes properly, easy to read on any device
-Technical Implementation
-HTML for structure and I made proper linking between all pages, CSS for colors/layout and Mobile-first media queries., JavaScript: I used basic mobile menu toggle
-Design for visual display: I choose maroon and gold colors to relate to the culture, Big, clear photos and Simple fonts easy to read.
+- ✔ Mobile, tablet, and desktop compatible  
+- ✔ Hamburger menu for small screens  
+- ✔ Responsive product grid  
+- ✔ Clean and cultural color theme (Maroon & Gold)  
+- ✔ Easy-to-navigate layout with interlinked pages  
 
-TESTING:
-I tested the website on
-1.  MacBook pro: Google Chrome Version 134.0.6998.89 (Official Build) (arm64). 
-Screenshots of Page 1 Home page (ZaikaRasoi.html) , Google Chrome Version 134.0.6998.89:
-Screenshot of Page 2(Menu.html) Google Chrome Version 134.0.6998.89:
-Screenshots of Page 3 (About.html) Google Chrome Version 134.0.6998.89:
-2. Testing environment – iPhone 14 pro max (430 x932):
-Screenshots of Page 1 in Portrait and Landscape iPhone 14 pro max:
-Screenshots of Page 2 (menu.html) portrait and landscape iPhone 14 pro max:
-Screenshots of Page 3 (iPhone 14 pro About.html) iPhone 14 pro max: 
+---
+
+##  Website Pages
+
+### 1. **Home Page** (`ZaikaRasoi.html`)
+- Large hero image of Indian food
+- Minimal text with welcoming message
+- Icons highlighting Delivery, Takeout, and Spice levels
+
+### 2. **Menu Page** (`Menu.html`)
+- Detailed food listings
+- Product cards with photo, description, and price
+- Responsive grid layout
+
+### 3. **About Page** (`About.html`)
+- Story of the restaurant and its cultural roots
+- Large background image
+- Brief description and consistent design
+
+All pages are linked through a navigation menu that adapts to screen size.
+
+---
+
+## Design & Technical Implementation
+
+- **HTML**: Semantic structure, internal linking
+- **CSS**: Mobile-first layout, media queries, and cultural color palette
+- **JavaScript**: Toggle menu for small screen hamburger icon
+- **Responsive Design**:
+  - Mobile-first approach
+  - Flexible image grids and font scaling
+  - Readable and accessible across all screen sizes
+
+---
+
+## Testing Report
+
+### Devices & Browsers Tested On:
+
+1. **MacBook Pro (Chrome v134.0.6998.89)**
+   - Home Page
+   - Menu Page
+   - About Page
+
+2. **iPhone 14 Pro Max (430x932)**
+   - Portrait & Landscape views of all 3 pages
+
+---
+
+##  Screenshots
+
+| Device | Page | Screenshot |
+|--------|------|------------|
+| MacBook Pro | Home Page (`ZaikaRasoi.html`) | ![Mac Home](screenshots/mac-home.png) |
+| MacBook Pro | Menu Page (`Menu.html`) | ![Mac Menu](screenshots/mac-menu.png) |
+| MacBook Pro | About Page (`About.html`) | ![Mac About](screenshots/mac-about.png) |
+| iPhone 14 Pro Max | Home (Portrait) | ![iPhone Home Portrait](screenshots/iphone-home-portrait.png) |
+| iPhone 14 Pro Max | Menu (Landscape) | ![iPhone Menu Landscape](screenshots/iphone-menu-landscape.png) |
+| iPhone 14 Pro Max | About Page | ![iPhone About](screenshots/iphone-about.png) |
+
+>  Place all screenshots in a `/screenshots/` folder in your GitHub repo.
+
+---
+
+## 📁 Project Files
+zaika-rasoi-website/
+├── ZaikaRasoi.html
+├── Menu.html
+├── About.html
+├── style.css
+├── script.js
+├── images/
+├── screenshots/
+└── README.md
+
+
